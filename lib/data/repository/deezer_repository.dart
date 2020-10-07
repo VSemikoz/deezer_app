@@ -1,9 +1,11 @@
 import 'package:deezer_app/data/models/play_list.dart';
+import 'package:injectable/injectable.dart';
 
 abstract class DeezerRepository {
   Future<List<PlayList>> get playList;
 }
 
+@Injectable(as: DeezerRepository)
 class LocalDeezerRepository implements DeezerRepository {
   @override
   Future<List<PlayList>> get playList async {
