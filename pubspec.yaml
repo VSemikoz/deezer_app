@@ -11,9 +11,21 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.0
 
+  # Utils
   equatable: ^1.2.5
+  intl: ^0.16.1
+  intl_translation: ^0.17.10
 
+  # Architecture
+  provider: ^4.3.2
   flutter_bloc: ^6.0.5
+  injectable: ^1.0.4
+  get_it: ^4.0.4
+
+
+
+  injectable_generator: ^1.0.4
+  build_runner: ^1.10.0
 
 
 dev_dependencies:
